@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  /* background-image: url("Images/bg2.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background: rgb(72, 134, 21);
+
+  background: linear-gradient(
+    0deg,
+    rgb(128, 47, 58) 0%,
+    rgb(82, 46, 180) 100%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    rgb(128, 47, 58) 0%,
+    rgb(82, 46, 180) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(128, 47, 58) 0%,
+    rgb(82, 46, 180) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8399A2", endColorstr="#EEF2F3", GradientType=1 );
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 20px 0;
+}
